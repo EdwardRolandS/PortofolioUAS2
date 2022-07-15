@@ -1,0 +1,161 @@
+
+.home{
+    min-height: 70vh;
+    margin-top: 15px;
+    padding: 50px;
+    background-color: #7adada;
+}
+
+.button{
+    background-color: #c2e4e4;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.button a{
+    color: black;
+}
+
+
+.homekotak{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forhome{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forimghome{
+    width: 270px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    margin-left: 100px;
+}
+
+
+.forimghome img{
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    min-height: 100vh;
+    background-color: #7adada;
+    padding: 50px;
+}
+
+
+.susunangambar{
+    display: flex;
+    left: 0;
+}
+
+.aboutgambar{
+    position: absolute;
+    margin-right: 100px;
+    width: 350px;
+    height: 350px;
+    right: 0;
+
+}
+
+.aboutgambar img{
+    width: 100%;
+    height: 100%;
+}
+
+.kontengambar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+    left: 0;
+    padding: 0 35px 0 35px;
+}
+
+
+.aboutgambar1{
+    position: absolute;
+    margin-left: 100px;
+    width: 350px;
+    height: 350px;
+    left: 0;
+
+}
+
+.susunangambar1{
+    display: flex;
+    right: 0;
+}
+.aboutgambar1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.kontengambar1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+    right: 0;
+    position: absolute;
+    padding: 0 35px 0 35px;
+}
+
+.contact{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: column; */
+    margin-top: 450px;
+}
+
+.followme{
+    position: relative;
+    /* font-family: 'Gulzar', serif; */
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.sosmed{
+    position: relative;
+    width: 500px;
+    height: 150px;
+}
+
+
+
+.sosmed ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosmed ul li{
+    list-style: none;
+    padding: 0 8px;
+    bottom: 0;
+}
+
+.sosmed img{
+    width: 50px;
+    height: 50px;
+}
+
+
